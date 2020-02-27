@@ -7,7 +7,7 @@ public class LockReceiver extends DeviceAdminReceiver{
     @Override
     public void onReceive(Context context, Intent intent) {
         super.onReceive(context, intent);
-       // System.out.println("onreceiver");标志
+       // System.out.println("onreceiver");
         }
     @Override
     public void onEnabled(Context context, Intent intent) {
