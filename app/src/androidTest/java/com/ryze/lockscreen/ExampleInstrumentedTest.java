@@ -1,4 +1,4 @@
-package com.ryze.administrator.myapplication;
+package com.ryze.lockscreen;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ryze.administrator.lockscreen", appContext.getPackageName());
+        assertEquals("com.ryze.lockscreen", appContext.getPackageName());
     }
 }

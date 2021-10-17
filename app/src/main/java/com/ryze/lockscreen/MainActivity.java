@@ -1,4 +1,4 @@
-package com.example.administrator.myapplication;
+package com.ryze.lockscreen;
 
 import android.app.Activity;
 import android.app.admin.DevicePolicyManager;
@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
         if (policyManager.isAdminActive(componentName)) {//判断是否有权限(激活了设备管理器)
             policyManager.lockNow();// 直接锁屏
             finish();
+            System.exit(0);
            // android.os.Process.killProcess(android.os.Process.myPid());
         }
         else{
@@ -40,6 +41,7 @@ public class MainActivity extends Activity {
                 if (policyManager!=null && policyManager.isAdminActive(componentName)) {
                    policyManager.lockNow();
                     finish();
+                    System.exit(0);//最近添加2021-10-17
                     //android.os.Process.killProcess(android.os.Process.myPid());
                 }
               super.onResume();

@@ -1,4 +1,4 @@
-package com.example.administrator.myapplication;
+package com.ryze.lockscreen;
 
 import android.app.admin.DeviceAdminReceiver;
 import android.content.Context;
