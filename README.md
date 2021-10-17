@@ -1,3 +1,1 @@
-# learngit
-# LockScreen
 # LockScreen
