@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
                 if (policyManager!=null && policyManager.isAdminActive(componentName)) {
                    policyManager.lockNow();
                     finish();
-//                    System.exit(0);//最近添加2021-10-17
+                    System.exit(0);//最近添加2021-10-17
                     //android.os.Process.killProcess(android.os.Process.myPid());
                 }
               super.onResume();
